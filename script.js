@@ -22,8 +22,8 @@ function validateForm() {
     if (password1El.value === password2El.value) {
         // If they match, set value to true and borders to green
         passwordsMatch = true;
-        password1El.style.borderColor = 'green';
-        password2El.style.borderColor = 'green';
+        password1El.style.borderColor = 'rgb(17, 219, 17)';
+        password2El.style.borderColor = 'rgb(17, 219, 17)';
     } else {
         // If they don't match, border color of input to red, change message
         passwordsMatch = false;
@@ -38,8 +38,8 @@ function validateForm() {
     if (isValid && passwordsMatch) {
         // Style main message for success
         message.textContent = 'Successfully Registered!';
-        message.style.color = 'green';
-        messageContainer.style.borderColor = 'green';
+        message.style.color = 'rgb(17, 219, 17)';
+        messageContainer.style.borderColor = 'rgb(17, 219, 17)';
     }
 }
 
